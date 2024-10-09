@@ -1,0 +1,32 @@
+body {
+    margin: 70px;
+    background-color:rgba(124, 142, 160, 0.229);
+}
+
+.timer-container {
+    max-width: fit-content;
+    margin: auto;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    border: solid rgb(64, 54, 54);
+    border-radius: 10px;
+    background-color: rgba(231, 223, 223, 0.579);
+
+}
+
+.timer-display {
+    border: 2px solid gray;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+#startBtn, #stopBtn, #resetBtn {
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
